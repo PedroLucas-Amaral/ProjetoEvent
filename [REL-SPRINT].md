@@ -1,3 +1,4 @@
+<pre>
 //O que fizemos nesta primeira semana:
 
 
@@ -6,3 +7,4 @@
 
 //Objetivos para a proxima semana:
 
+</pre>
