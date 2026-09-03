@@ -10,8 +10,13 @@
     
 //Grupo:
     Pedro Lucas Amaral Nunes;
+    Pedro Henrique Oliveira da Silva;
     
     
 //Funções Iniciais:
+    Pedro Lucas: Front-end;
+    Pedro Henrique: Banco de Dados;
+
+
     
 </pre>
