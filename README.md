@@ -9,14 +9,15 @@
     Casa de Eventos;
     
 //Grupo:
-    Pedro Lucas Amaral Nunes;
-    Pedro Henrique Oliveira da Silva;
+    Pedro Lucas;
+    Pedro Henrique;
     
     
 //Funções Iniciais:
     Pedro Lucas: Front-end;
     Pedro Henrique: Banco de Dados;
-
+    César Augusto:
+    Kellyson Souza:
 
     
 </pre>
