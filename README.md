@@ -11,6 +11,8 @@
 //Grupo:
     Pedro Lucas;
     Pedro Henrique;
+    Kellyson Souza;
+    César Augusto;
     
     
 //Funções Iniciais:
