@@ -9,12 +9,12 @@
 }
 
 
-body {
+body{
     font-family: Arial, sans-serif;
 
     min-height: 100vh;
 
-    background:
+    background-image:
             linear-gradient(
                     135deg,
                     #141e30,
@@ -155,60 +155,12 @@ body {
             rgba(36, 59, 85, 0.15);
 }
 
-form#formCadastro input {
-
-    width: 100%;
-
-    padding: 14px;
-
-    border:
-
-            1px solid #ddd;
-
-    border-radius: 8px;
-
-    font-size: 15px;
-
-    outline: none;
-
-    transition: 0.3s;
-}
-
-form#formCadastro label{
-
-    margin-bottom: 8px;
-
-    font-weight: bold;
-
-    color: #333;
-}
-
-form#formCadastro {
-
-    display: flex;
-
-    flex-direction: column;
-
-    gap: 16px;
-
-    margin-bottom: 22px;
-}
-
-
-
-
-
-
-
-
-
-
 
 /* =========================================
    BOTÃO
 ========================================= */
 
-button {
+button.logincadastro {
 
     width: 100%;
 
@@ -306,73 +258,85 @@ button:active {
 
 }
 
-body#dashboard{
-    font-family: Arial, sans-serif;
+/* =========================================
+   Dashboard
+========================================= */
 
-    min-height: 100vh;
+.Dashboard{
 
-    background:white;
+    width: 85%;
+    height: 85vh;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
 
+}
+
+.painel{
+
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    width: 450px;
+    height: 250px;
+    box-sizing: border-box;
+    place-content: center;
+    place-items: center;
     display: flex;
 
-    justify-content: center;
-
-    align-items: flex-start;
-
-    
-    
 }
 
-
-
-main#painelTopo{
-    background:
-            linear-gradient(
-                    135deg,
-                    #141e30,
-                    #243b55
-            );
-    padding: 16px;
-    text-align: center;
+.painel img{
+    object-fit: cover;
+    object-position: center;
     width: 100%;
-    height: 75px;
-    color: white;
-}
+    height: 100%;
+    border-radius: 12px;
 
-main#painelLat{
-    background-image: linear-gradient(#243b55,#141e30);
- 
-    position: fixed;
-    left: 0;
-    height: 100vh;
-    width: 75px;
 }
 
 .menu{
+
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    position: absolute;
+    z-index: 10;
+    top: 7px;
+
+    width: 85%;
+    height: 5vh;
+}
+
+.btnmenu{
+
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 75px;
-    height: 75px;
-    display: flex;
+    padding: 10px 28px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #8b9bb4; /* Cor do texto quando inativo */
+    text-decoration: none;
+    border-radius: 10px; /* Arredondamento */
+}
+
+.btnmenu a {
+
+    text-decoration: none;
+    color: #ddd;
+
+}
+
+.btnmenu.active{
+
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
     
-}
 
-.imgs{
-
-    width: 60%;
-    height: auto;
-}
-
-.config{
-    align-items: center;
-    justify-content: center;
-    width: 75px;
-    height: 75px;
-    display: flex;
-    
-}
-
-.imgConfig{
-    width: 45%;
-    height: auto;
 }
